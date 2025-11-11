@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Modular EDC Loadout (v1.9)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #212529;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 24px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        h1, h2, h3, h4 {
+            font-weight: 600;
+            line-height: 1.3;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #000;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #343a40;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 8px;
+        }
+        h3 {
+            font-size: 1.5rem;
+            color: #495057;
+        }
+        h4 {
+            font-size: 1.2rem;
+            color: #495057;
+        }
+        p, ul {
+            margin-bottom: 1.25em;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 0.75em;
+        }
+        strong {
+            color: #000;
+        }
+        em {
+            font-style: italic;
+            color: #6c757d;
+        }
+        code {
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+            background-color: #e9ecef;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .item-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 1em;
+        }
+        .item-card {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+        .item-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #f1f3f5;
+        }
+        .item-card-content {
+            padding: 15px;
+            flex-grow: 1;
+        }
+        .item-card-content h4 {
+            margin-top: 0;
+        }
+        .phase-section {
+            padding: 15px;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            background-color: #fdfdfd;
+        }
+        .phase-total {
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-align: right;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Master Loadout: The "Modular SysAdmin" (v1.9)</h1>
+
+        <h2>Core Philosophy</h2>
+        <p>To solve the "two-mode" problem (SysAdmin vs. Disc Golf/Personal) by migrating from two bulky, siloed bags to a single, modular "Core Backpack." This "buy-it-for-life" system is designed to reduce daily friction, enhance organization, and align with a clean, functional, and tech-focused aesthetic.</p>
+
+        <h2>1. The "On-Person" System (Pocket & Wrist)</h2>
+        <p>This is your minimalist "on-body" carry. Its primary goal is to be slim, silent, and solve all previous bulk and security issues.</p>
+        
+        <h3>1a. Pocket Carry (The Minimalist Loadout)</h3>
+        <div class="item-grid">
+            <div class="item-card">
+                <img src="/edc-loadout/images/ekster-wallet.jpg" alt="Ekster Parliament Wallet">
+                <div class="item-card-content">
+                    <h4><a href="https://ekster.com/products/parliament-wallet" target="_blank">Ekster Parliament (Wallet)</a></h4>
+                    <ul>
+                        <li><strong>Purpose:</strong> Holds 4 primary cards (RFID-blocking) and light cash.</li>
+                        <li><strong>Approx. Price:</strong> <code>$99.00</code></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item-card">
+                <img src="/edc-loadout/images/fob-cover.jpg" alt="Car Fob Cover">
+                <div class="item-card-content">
+                    <h4><a href="https://www.amazon.com/s?k=car+fob+cover" target="_blank">Car Fob + Fob Cover</a></h4>
+                    <ul>
+                        <li><strong>Purpose:</strong> Solves the "fob sensitivity" issue.</li>
+                        <li><strong>Location:</strong> Front-Left Pocket (with wallet).</li>
+                        <li><strong>Approx. Price:</strong> <code>$15.00</code></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li><strong>Front-Right Pocket:</strong> Personal Cell Phone <code>(Owned)</code></li>
+            <li><strong>Front-Left Pocket:</strong> Ekster Parliament & Car Fob.</li>
+            <li><strong>Back Pockets & 5th Pocket:</strong> <em>Empty</em></li>
+        </ul>
+
+        <h3>1b. On-Body (Wrist)</h3>
+        <div class="item-grid">
+            <div class="item-card">
+                <img src="/edc-loadout/images/dot-band.png" alt="dot.band NFC Bracelet">
+                <div class="item-card-content">
+                    <h4><a href="https://dotcards.net/products/dot-band" target="_blank">dot.band NFC Bracelet</a></h4>
+                    <ul>
+                        <li><strong>Purpose:</strong> Full-time "digital handshake" for networking (web dev, non-profit).</li>
+                        <li><strong>Approx. Price:</strong> <code>$30.00</code></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2>2. The Core Bag System (Backpack & Strap)</h2>
+        <p>This is the "shell" of your entire system—the bag itself and the modules externally attached to it for rapid access.</p>
+
+        <h3>2a. The Core Backpack (The "Mothership")</h3>
+        <div class="item-grid">
+            <div class="item-card">
+                <img src="/edc-loadout/images/able-carry.jpg" alt="Able Carry Daily Plus Backpack">
+                <div class="item-card-content">
+                    <h4><a href="https://ablecarry.com/products/daily-plus" target="_blank">Able Carry Daily Plus (21L)</a></h4>
+                    <ul>
+                        <li><strong>Purpose:</strong> Your single "Core Backpack" for all modes.</li>
+                        <li><strong>Approx. Price:</strong> <code>$179.00</code></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h3>2b. The "Dual-Strap" External Modules</h3>
+        <div class="item-grid">
+            <div class="item-card">
+                <img src="/edc-loadout/images/alpaka-utility.jpg" alt="Alpaka Utility Pouch">
+                <div class="item-card-content">
+                    <h4>Left Strap (Work Module)</h4>
+                    <ul>
+                        <li><strong>Housing:</strong> <a href="https://alpakagear.com/products/hub-utility-pouch" target="_blank">Alpaka Utility Pouch</a> + <a href="https://alpakagear.com/products/hub-mod-strap" target="_blank">Hub Mod</a> <code>(~$74.00)</code></li>
+                        <li><strong>Contents:</strong> Work Phone, ID Card, <a href="https://www.orbitkey.com/products/orbitkey-key-organiser-active" target="_blank"><strong>Orbitkey (Active)</strong></a> <code>(~$25.00)</code>, <a href="https://gearspool.com/products/mighty-bar-stainless" target="_blank"><strong>Gear Spool Mighty Bar</strong></a> <code>(~$25.00)</code></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item-card">
+                <img src="/edc-loadout/images/alpaka-hub.jpg" alt="Alpaka Hub Pouch">
+                <div class="item-card-content">
+                    <h4>Right Strap (Personal Module)</h4>
+                    <ul>
+                        <li><strong>Housing:</strong> <a href="https://alpakagear.com/products/hub-pouch" target="_blank">Alpaka Hub Pouch</a> + <a href="https://alpakagear.com/products/hub-mod-strap" target="_blank">Hub Mod</a> <code>(~$54.00)</code></li>
+                        <li><strong>Contents:</strong> <a href="https://www.orbitkey.com/products/orbitkey-key-organiser-leather" target="_blank"><strong>Orbitkey Key Organiser (Leather)</strong></a> <code>(~$45.00)</code></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2>3. The Modular "In-Bag" System (Internal Kits)</h2>
+        <p>These are the "kits" that live inside your Able Carry backpack, organized by function and frequency of use.</p>
+
+        <h3>3a. Daily Carry Modules (Always in Bag)</h3>
+        <div class="item-grid">
+            <div class="item-card">
+                <img src="/edc-loadout/images/aer-slim.jpg" alt="Aer Slim Pouch (Core Tech Kit)">
+                <div class="item-card-content">
+                    <h4>Kit 1: "Core Tech Kit"</h4>
+                    <ul>
+                        <li><strong>Housing:</strong> <a href="https://aersf.com/products/slim-pouch-gray" target="_blank">Aer Slim Pouch (Gray)</a> <code>(~$39.00)</code></li>
+                        <li><strong>Contents:</strong> Power Bank <code>(Owned)</code>, M.2 Enclosure <code>(Owned)</code>, <a href="https://kablecard.com/" target="_blank"><strong>Kablecard</strong></a> <code>(~$45.00)</code></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item-card">
+                <img src="/edc-loadout/images/aer-split.jpg" alt="Aer Split Pouch (First Aid)">
+                <div class="item-card-content">
+                    <h4>Kit 2: "Personal First Aid Kit"</h4>
+                    <ul>
+                        <li><strong>Housing:</strong> <a href="https://aersf.com/products/split-kit" target="_blank">Aer Split Pouch</a> <code>(~$35.00)</code></li>
+                        <li><strong>Contents:</strong> Streamlined daily medical items.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item-card">
+                <img src="/edc-loadout/images/leuchtturm-notebook.jpg" alt="Analog Capture & Screen-Care">
+                <div class="item-card-content">
+                    <h4>Kit 3: "Analog Capture & Screen-Care"</h4>
+                    <ul>
+                        <li><strong>Housing:</strong> Backpack Admin Panel</li>
+                        <li><strong>Notebook:</strong> <a href="https://www.leuchtturm1917.us/notebook-medium-a5-120g-dotted-hardcover-black.html" target="_blank">Leuchtturm1917 120g (A5, Dot-Grid)</a> <code>(~$29.00)</code></li>
+                        <li><strong>Hanky:</strong> <a href="https://mightyhanks.com/" target="_blank">Mighty Hanks Microfiber Hanky</a> <code>(~$20.00)</code></li>
+                        <li><strong>Pen (Upgrade):</strong> <a href="https://tactileturn.com/products/bolt-action-pen" target="_blank">Tactile Turn Bolt Action</a> <code>(~$99.00)</code></li>
+                    </ul>
+                </div>
+            </div>
+             <div class="item-card">
+                <img src="/edc-loadout/images/civivi-knife.jpg" alt="CIVIVI Vision FG Knife">
+                <div class="item-card-content">
+                    <h4>Kit 4: "Daily Knife"</h4>
+                    <ul>
+                        <li><strong>Housing:</strong> Backpack Admin Panel</li>
+                        <li><strong>Item:</strong> <a href="https://www.civivi.com/products/civivi-vision-fg-c22036-1" target="_blank">CIVIVI Vision FG</a> <code>(~$92.00)</code></li>
+                        <li><em>System Note: The knife is now a secure "in-bag" tool.</em></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h3>3b. "Work Mode" Modules (Added for Work Days)</h3>
+        <div class="item-grid">
+            <div class="item-card">
+                <img src="/edc-loadout/images/ifixit-kit.jpg" alt="iFixit Pro Tech Toolkit">
+                <div class="item-card-content">
+                    <h4>Kit 5: "SysAdmin Lite Kit"</h4>
+                    <ul>
+                        <li><strong>Housing:</strong> <a href="https://www.ifixit.com/products/pro-tech-toolkit" target="_blank">iFixit Pro Tech Toolkit</a> (in its case)</li>
+                        <li><strong>Approx. Price:</strong> <code>$75.00</code></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item-card">
+                <img src="/edc-loadout/images/surface-pro.jpg" alt="Work Items">
+                <div class="item-card-content">
+                    <h4>Kit 6: Professional & Personal Items</h4>
+                    <ul>
+                        <li>15-inch Surface Pro & Charger <code>(Owned)</code></li>
+                        <li>Meal Prep Container / Lunch</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <h3>3c. "Job-Specific" Modules (Kept at Desk/Car)</h3>
+        <div class="item-grid">
+            <div class="item-card">
+                <img src="/edc-loadout/images/carhartt-roll.jpg" alt="Carhartt Legacy Tool Roll">
+                <div class="item-card-content">
+                    <h4>Kit 7: "SysAdmin Heavy Kit" (Tools)</h4>
+                    <ul>
+                        <li><strong>Housing:</strong> <a href="https://www.carhartt.com/product/800611/legacy-tool-roll" target="_blank">Carhartt Legacy Tool Roll</a> <code>(~$35.00)</code></li>
+                        <li><strong>Contents:</strong> Leatherman Wave+, Crimper, etc. <code>(Owned)</code></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item-card">
+                <img src="/edc-loadout/images/magpul-daka.jpg" alt="Magpul DAKA Pouch (Large)">
+                <div class="item-card-content">
+                    <h4>Kit 8: "Workstation Install Kit" (Cables)</h4>
+                    <ul>
+                        <li><strong>Housing:</strong> <a href="https://magpul.com/daka-pouch-large.html" target="_blank">Magpul DAKA Pouch (Large)</a> <code>(~$35.00)</code></li>
+                        <li><strong>Contents:</strong> Bulk install cables (Ethernet, HDMI, etc.)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2>4. The Digital Security System (Tracker Layer)</h2>
+        <p>This is the "service" layer that protects your new high-value gear, built on the <strong>Google Find My Device</strong> network. (Purchase links added to Phase 2).</p>
+        <ul>
+            <li><strong>Wallet Tracker:</strong> 1x <a href="https://chipolo.net/en-us/products/chipolo-card-point" target="_blank">Chipolo Card Point</a> <code>(~$35.00)</code></li>
+            <li><strong>Backpack Tracker:</strong> 1x <a href="https://chipolo.net/en-us/products/chipolo-one-point" target="_blank">Chipolo ONE Point</a> <code>(~$28.00)</code></li>
+            <li><strong>Work Pouch Tracker:</strong> 1x <a href="https://chipolo.net/en-us/products/chipolo-one-point" target="_blank">Chipolo ONE Point</a> <code>(~$28.00)</code></li>
+            <li><strong>Personal Pouch Tracker:</strong> 1x <a href="https://www.orbitkey.com/products/orbitkey-x-chipolo-tracker-v2" target="_
